@@ -2,10 +2,8 @@ import java.util.ArrayList;
 public class StepTracker
 {
 private int max;
- private int days;
  private ArrayList <Integer> data;
  StepTracker(int a) {
-  days = 0; 
   data = new ArrayList <Integer>(); 
   max = a;
  }
