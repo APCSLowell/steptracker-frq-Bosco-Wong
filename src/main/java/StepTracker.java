@@ -4,7 +4,7 @@ public class StepTracker
 private int max;
  private int days;
  private ArrayList <Integer> data;
- StepTracker(int x ) {
+ StepTracker(int a) {
   days = 0; 
   data = new ArrayList <Integer>(); 
   max = a;
@@ -13,8 +13,9 @@ private int max;
   data.add(b);
  }
  public int activeDays(){ 
+  int count = 0;
   for(int x = 0; x < data.size();x++)
-   if(data.get(x) >= a)
+   if(data.get(x) >= max)
     count++; 
  }
  public int averageSteps(){
