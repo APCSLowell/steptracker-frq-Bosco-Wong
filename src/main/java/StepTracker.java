@@ -17,6 +17,7 @@ private int max;
   for(int x = 0; x < data.size();x++)
    if(data.get(x) >= max)
     count++; 
+  return count;
  }
  public int averageSteps(){
   int y = 0;
