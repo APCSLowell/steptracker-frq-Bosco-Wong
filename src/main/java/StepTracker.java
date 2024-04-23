@@ -15,12 +15,15 @@ private int max;
   for(int x = 0; x < data.size();x++)
    if(data.get(x) >= max)
     count++; 
+  
   return count;
  }
  public double averageSteps(){
   double y = 0.0;
+  if(data.size() == 0)
+   return y;
   for(int x  = 0; x < data.size(); x++)
    y += data.get(x);
-  return (double)y/(double)data.size();
+  return y/data.size();
 }
 }
