@@ -6,7 +6,7 @@ private int max;
  private ArrayList <Integer> data;
  StepTracker(int x ) {
   days = 0; 
-  data= new <Integer>() ArrayList; 
+  data = new ArrayList <Integer>(); 
   max = a;
  }
  public void addDailySteps(int b){
