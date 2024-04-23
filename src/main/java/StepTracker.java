@@ -23,6 +23,6 @@ private int max;
   double y = 0.0;
   for(int x  = 0; x < data.size(); x++)
    y += data.get(x);
-  return y/data.size();
+  return (double)y/(double)data.size();
 }
 }
