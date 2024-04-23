@@ -15,7 +15,7 @@ private int max;
  public int activeDays(){ 
   int count = 0;
   for(int x = 0; x < data.size();x++)
-   if(data.get(x) > max)
+   if(data.get(x) >= max)
     count++; 
   return count;
  }
