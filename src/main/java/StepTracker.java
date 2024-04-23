@@ -3,13 +3,13 @@ public class StepTracker
 {
 private int max;
  private int days;
- private ArrayList <Double> data;
+ private ArrayList <Integer> data;
  StepTracker(int a) {
   days = 0; 
-  data = new ArrayList <Double>(); 
+  data = new ArrayList <Integer>(); 
   max = a;
  }
- public void addDailySteps(double b){
+ public void addDailySteps(int b){
   data.add(b);
  }
  public int activeDays(){ 
